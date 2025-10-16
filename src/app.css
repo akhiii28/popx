@@ -224,13 +224,34 @@ input[type="radio"] {
     object-fit: cover;
     border: 2px solid #eee;
 }
-
+.profile-container {
+  position: relative;
+  width: 68px; 
+  height: 62px;
+}
 .img {
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    display: block;
 }
-
+.camera-icon{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  background-color: #6C25FF;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.camera{
+  font-size: 10px;
+  color: #FFFFFF;
+}
 .line {
     border: none;
     border-top: 2px dashed #CECECE;

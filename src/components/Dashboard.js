@@ -1,4 +1,5 @@
 import profileImg from './image.jpg'
+import { FaCamera } from 'react-icons/fa';
 
 function Dashboard() {
     return (
@@ -7,8 +8,9 @@ function Dashboard() {
                 Account Settings
             </div>
             <div className="dashcontent">
-                <div>
+                <div className='profile-container'>
                     <img src={profileImg} alt='profile' className='img' />
+                    <button className='camera-icon'><FaCamera className="camera"/></button>
                 </div>
                 <div>
                     <span style={{
