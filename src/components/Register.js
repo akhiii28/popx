@@ -39,7 +39,6 @@ function Register() {
 
             </form>
             <EndButton/>
-
         </div>
     )
 }
